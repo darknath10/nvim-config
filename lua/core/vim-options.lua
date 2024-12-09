@@ -1,0 +1,19 @@
+vim.cmd("set expandtab")
+vim.cmd("set tabstop=2")
+vim.cmd("set softtabstop=2")
+vim.cmd("set shiftwidth=2")
+vim.g.mapleader = " "
+vim.g.maplocalleader = " "
+vim.wo.number = true
+vim.o.relativenumber = true
+vim.o.clipboard = "unnamedplus"
+vim.o.wrap = false
+vim.o.linebreak = true
+vim.o.mouse = 'a'
+vim.o.autoindent = true
+vim.o.ignorecase = true
+vim.o.smartcase = true
+vim.o.cursorline = true
+vim.o.splitbelow = true
+vim.o.splitright = true
+vim.opt.termguicolors = true
